@@ -36,7 +36,7 @@ try{
 
 const listMessage = {
   text: 'Here\'s The List Of Functions\nSelect The Function To Turn It On/Off\n\n ',
-  footer: `ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`,
+  footer: `kinflux bot • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +254110077535`,
   title: `*${htki} 𝙾𝙿𝚃𝙸𝙾𝙽𝚂 ${htka}*`,
   buttonText: "Click Here!",
   sections
