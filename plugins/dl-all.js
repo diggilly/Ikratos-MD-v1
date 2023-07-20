@@ -35,11 +35,11 @@ const handler = async (m, { conn, args, command }) => {
 
       fs.unlinkSync(videoPath);
 
-      m.reply('Video successfully downloaded and sent!');
+      m.reply('Video successfully downloaded and sent!  from kinflux bot');
     });
 
     writer.on('error', (err) => {
-      m.reply(`Error occurred while downloading the video: ${err.message}`);
+      m.reply(`Error occurred while downloading the video from kinflux bot: ${err.message}`);
     });
   } catch (error) {
     m.reply(`Error occurred: ${error.message}`);
