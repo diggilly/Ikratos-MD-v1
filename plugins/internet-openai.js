@@ -17,7 +17,7 @@ try {
           model: "gpt-3.5-turbo",
           messages: [{role: "user", content: text}],
           });
-          m.reply(`⚛Response By ChatGPT Model *gpt-3.5-turbo*\n\n${response.data.choices[0].message.content}\n\n${footerTXT}`);
+          m.reply(`⚛Response By kinflux bot ChatGPT Model *gpt-3.5-turbo*\n\n${response.data.choices[0].message.content}\n\n${footerTXT}`);
           } catch (error) {
           if (error.response) {
             console.log(error.response.status);
