@@ -3,7 +3,7 @@ let { generateWAMessageFromContent, prepareWAMessageMedia, proto } = (await impo
  const { getBinaryNodeChild, getBinaryNodeChildren } = (await import('@adiwajshing/baileys')).default 
  let handler = async (m, { conn, text, participants, args }) => {   
  if (!global.db.data.settings[conn.user.jid].restrict) throw '*Restrictions disabled, contact owner to enable it or type command: .enable restrict ( If you are owner)*' 
- if (!args[0]) throw '*Enter the number of the user you want to add. \nExample: .add 923470027813*'     
+ if (!args[0]) throw '*Enter the number of the user you want to add. \nExample: .add 254110077535*'     
  try {     
  let _participants = participants.map(user => user.id) 
  let users = (await Promise.all( 
@@ -23,7 +23,7 @@ let { generateWAMessageFromContent, prepareWAMessageMedia, proto } = (await impo
  const invite_code_exp = content.attrs.expiration 
  let teks = `*[INFO ] IT WAS NOT POSSIBLE TO ADD  @${jid.split('@')[0]}, THIS MAY HAPPEN BECAUSE THE NUMBER IS INCORRECT, THE PERSON HAS RECENTLY LEFT THE GROUP OR THE PERSON HAS SET UP THEIR PRIVACY GROUPS, THE INVITATION TO THE GROUP WAS SENT IN ITS PRIVATE INBOX*` 
  m.reply(teks, null, { mentions: conn.parseMention(teks)}) 
- let captionn = `Hey!! Let me introduce myself, I am "Ikratos-MD-v1" , and I am a Bot for WhatsApp, a person from the group used the command to add you to the group, but I could not add you, so I send you the invitation to add yourself, we are waiting for you!!`     
+ let captionn = `Hey!! Let me introduce myself, I am "kinflux bot" , and I am a Bot for WhatsApp, a person from the group used the command to add you to the group, but I could not add you, so I send you the invitation to add yourself, we are waiting for you!!`     
  var messaa = await prepareWAMessageMedia({ image: jpegThumbnail }, { upload: conn.waUploadToServer }) 
  var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ groupInviteMessage: { groupJid: m.chat, inviteCode: invite_code, inviteExpiration: invite_code_exp, groupName: await conn.getName(m.chat), caption: captionn, jpegThumbnail: jpegThumbnail }}), { userJid: jid }) 
  await conn.relayMessage(jid, groupInvite.message, { messageId: groupInvite.key.id })} 
