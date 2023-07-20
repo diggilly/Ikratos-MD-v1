@@ -45,12 +45,12 @@ global.sig = 'https://instagram.com/Kinfluxdigital' //Link Instagrammu
 global.sgh = 'https://github.com/diggilly/kinflux_bot_god_v2' //Link Githubmu
 global.sgc = 'https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD'
 global.sdc = '-' //Fill it out using the Discord link, if there is one, just leave it
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, This is up to you to fill in :v
+global.snh = '-' //Hmmm, This is up to you to fill in :v
 
 /*============== PAYMENT ==============*/
 global.pdana = '14242345899' //Nomor Danamu
 global.ppulsa = '254110077535' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDDhttps://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD' //Link Saweriamu Kalo Nggada Ketik - aja
+global.psaweria = 'https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
 global.nomorbot = '14242345899' //Nomor Bot
@@ -114,17 +114,17 @@ global.botdate = `⫹⫺ Date: ${week} ${date}`
 global.bottime = `Time : ${wktuwib}`
 global.titlebot = '🎋 ┊ kinflux ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
-global.logo = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.logo = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg'
 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/cc8jfkX/01.jpg' //Main Thumbnail
-global.thumb2 = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.thumbbc = 'https://i.ibb.co/cc8jfkX/01.jpg' //For broadcast
+global.thumb = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg' //Main Thumbnail
+global.thumb2 = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg'
+global.thumbbc = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumblvlup = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.hwaifu = ['https://i.ibb.co/cc8jfkX/01.jpg']
+global.thumblvlup = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg'
+global.hwaifu = ['https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg']
 
 /*============== FlamingText ===========*/
 global.flaaa = [
@@ -140,7 +140,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+92 347 0027813'
+global.phn = '+254110077535'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -150,7 +150,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.thumbdoc = 'https://raw.githubusercontent.com/diggilly/kinflux_bot_God/main/Guru.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '5644' // default 10TB
@@ -180,10 +180,10 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'x_ikratos_x'
-global.stickauth = `「 ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ𝟷 」`
+global.stickpack = 'x_KINFLUX_BOT_X'
+global.stickauth = `「 KINFLUX BOT ᴠ2 」`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪᴋʀᴀᴛᴏs'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ KINFLUX DIGITAL'
 
 global.multiplier = 38 // The higher, The harder levelup
 
