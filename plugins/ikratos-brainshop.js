@@ -23,7 +23,7 @@
      if (text) {
        let zx = text.length;
        if (zx < 30) {
-         let { data } = await axios.get(`http://api.brainshop.ai/get?bid=174153&key=aVicUFcROT6Utoyk&uid=[${m.sender.split("@")[0]}]&msg=[${text}]`);
+         let { data } = await axios.get(`http://api.brainshop.ai/get?bid=176217&key=knXmUkn9zcHAk09T&uid=[${m.sender.split("@")[0]}]&msg=[${text}]`);
          this.sendPresenceUpdate('typing', m.chat) 
          return m.reply(data.cnt);
        }
