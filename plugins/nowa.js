@@ -2,7 +2,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let regex = /x/g
     if (!text) throw '⚠️ Enter a number.'
-    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 521999340434x*`
+    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 254999340434x*`
 
     let random = text.match(regex).length, total = Math.pow(10, random), array = []
     for (let i = 0; i < total; i++) {
