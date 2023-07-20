@@ -21,7 +21,7 @@ Age : ${cekusia}
 Zodiac : ${zodiac}
 
 
-ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813
+kinflux bot-ᴠ2 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +254110077535
 `.trim()
     m.reply(teks)
 }
